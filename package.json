@@ -1,0 +1,58 @@
+{
+  "name": "jalali-persian-datepicker",
+  "private": false,
+  "version": "1.1.11",
+  "description": "A custom Jalali date picker for Next.js and React.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "bundle": "tsup src/index.ts"
+  },
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.3.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "jalaali-js": "^1.2.7",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "@radix-ui/react-popover": "^1.1.1",
+    "lucide-react": "^0.439.0"
+  },
+
+  "devDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  },
+  "author": "Erwin Aghajani",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "jalali",
+    "persian",
+    "calendar",
+    "datepicker",
+    "nextjs",
+    "nextjs-persian-calendar",
+    "react-jalali-datepicker"
+  ],
+  "github": {
+    "url": "https://github.com/TronIsHere/jalali-persian-datepicker"
+  }
+}
